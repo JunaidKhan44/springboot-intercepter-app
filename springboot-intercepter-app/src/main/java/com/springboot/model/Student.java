@@ -20,7 +20,6 @@ public class Student implements Serializable{
 	
 	public Student() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Student(String id, String firstName, String lastName) {
