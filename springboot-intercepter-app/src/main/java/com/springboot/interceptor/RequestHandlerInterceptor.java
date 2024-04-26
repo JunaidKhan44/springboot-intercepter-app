@@ -29,7 +29,7 @@ public class RequestHandlerInterceptor implements HandlerInterceptor  {
 			throws Exception {
 		
 		System.out.println("--------------------------------------");
-		System.out.println("Intercepter is called--------------------");
+		System.out.println("Intercepter is called------------------");
 		System.out.println("--------------------------------------");
 		
 		if(StringUtils.isBlank(request.getHeader("student-auth-key"))) {
